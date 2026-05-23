@@ -12,9 +12,9 @@ The focus is on how backends work: HTTP methods, JSON, databases, and security. 
 
 | Phase | Status | Main idea |
 |-------|--------|-----------|
-| Phase 1 | Done | Simple API with data in memory |
-| Phase 2 | Done | API with MySQL database and login (JWT) |
-| Phase 3 | In progress | Full product: job application tracker |
+| [Phase 1](#phase-1---first-rest-api-in-memory) | Done | Simple API with data in memory |
+| [Phase 2](#phase-2---database-and-authentication) | Done | API with MySQL database and login (JWT) |
+| [Phase 3](#phase-3---job-application-tracker-in-progress) | In progress | Full product: job application tracker |
 
 ---
 
