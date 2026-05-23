@@ -60,7 +60,7 @@ python phase1.py
 
 The server runs on `http://127.0.0.1:5000` (Flask default).
 
-Use **Postman** to send requests and check responses (see section *Test the API with Postman* below).
+Use **Postman** to send requests and check responses (see section [*Test the API with Postman*](#test-the-api-with-postman) below).
 
 **Topics covered:**
 - HTTP methods: GET, POST, PUT, DELETE
@@ -98,7 +98,7 @@ Use **Postman** to send requests and check responses (see section *Test the API 
 **How to run (with Docker):**
 
 1. Go to the `phase2` folder.
-2. Create a `.env` file (copy from example or use course materials). Required variables include `DB_URL`, `MYSQL_ROOT_PASSWORD`, `MYSQL_DATABASE`.
+2. Create a `.env` file. Required variables include `DB_URL`, `MYSQL_ROOT_PASSWORD`, `MYSQL_DATABASE`.
 3. Start services:
 
 ```bash
@@ -108,7 +108,7 @@ docker compose up --build
 
 API is on `http://localhost:5000`.
 
-Use **Postman** to test endpoints and JWT login (see section *Test the API with Postman* below).
+Use **Postman** to test endpoints and JWT login (see section [*Test the API with Postman*](#test-the-api-with-postman) below).
 
 **Note:** On start, the app runs `db.drop_all()` and `db.create_all()` and seeds sample users. This is good for learning, but not for production.
 
@@ -157,7 +157,7 @@ Phase 3 code will be added to this repository when it is ready.
 
 For **Phase 2 profile** (`GET /users/profile`):
 1. Call `/users/login` and copy `access_token` from the response.
-2. Open the **Authorization** tab, choose **Bearer Token**, paste the token.
+2. Open the **Authorization** tab, write **Bearer {Token}**, paste the token.
 3. Send `GET` to `/users/profile`.
 
 Check status code and JSON body in Postman after each request.
