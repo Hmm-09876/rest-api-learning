@@ -157,7 +157,7 @@ Phase 3 code will be added to this repository when it is ready.
 
 For **Phase 2 profile** (`GET /users/profile`):
 1. Call `/users/login` and copy `access_token` from the response.
-2. Open the **Authorization** tab, choose **Bearer Token**, paste the token.
+2. Open the **Authorization** tab, write **Bearer {Token}**, paste the token.
 3. Send `GET` to `/users/profile`.
 
 Check status code and JSON body in Postman after each request.
