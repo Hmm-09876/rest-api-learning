@@ -1,9 +1,9 @@
 from flask import Blueprint, jsonify, request
 from models import db, User
-import jwt
+import jwt, os
 from datetime import datetime, timedelta
 
-SECRET_KEY = "my_key"
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 users_bp = Blueprint("users", __name__)
 
