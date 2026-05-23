@@ -14,4 +14,4 @@ while True:
     
     except Exception as e:
         print("Waiting DB...", e)
-        time.sleep(2)
+        time.sleep(7)
